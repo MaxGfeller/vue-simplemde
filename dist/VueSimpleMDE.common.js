@@ -1590,12 +1590,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"afe67e7c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/index.vue?vue&type=template&id=c1c53ae0&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7e55cf48-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/index.vue?vue&type=template&id=3749f944&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vue-simplemde"},[_c('textarea',{staticClass:"vue-simplemde-textarea",attrs:{"name":_vm.name},domProps:{"value":_vm.value},on:{"input":function($event){return _vm.handleInput($event.target.value)}}})])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/index.vue?vue&type=template&id=c1c53ae0&
+// CONCATENATED MODULE: ./src/index.vue?vue&type=template&id=3749f944&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
 var es_object_assign = __webpack_require__("cca6");
@@ -1606,7 +1606,6 @@ var external_commonjs_simplemde_commonjs2_simplemde_amd_simplemde_root_SimpleMDE
 
 // EXTERNAL MODULE: external "marked"
 var external_marked_ = __webpack_require__("1d61");
-var external_marked_default = /*#__PURE__*/__webpack_require__.n(external_marked_);
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/index.vue?vue&type=script&lang=js&
 
@@ -1692,7 +1691,7 @@ var external_marked_default = /*#__PURE__*/__webpack_require__.n(external_marked
       } // 设置是否渲染输入的html
 
 
-      external_marked_default.a.setOptions({
+      external_marked_["setOptions"]({
         sanitize: this.sanitize
       }); // 实例化编辑器
 
